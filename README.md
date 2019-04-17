@@ -19,3 +19,4 @@ https://github.com/comfy/comfortable-mexican-sofa
 
 HEROKU
 sudo snap install --classic heroku
+heroku config:set AWS_ACCESS_KEY_ID=xxx AWS_SECRET_ACCESS_KEY=yyy

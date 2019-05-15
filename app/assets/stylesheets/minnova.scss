@@ -6,6 +6,10 @@
     transition:         all $transition ease;
 }
 
+.nav-logo {
+	padding-bottom: 10px;
+}
+
 
 #mapsource {
   pointer-events: none;
@@ -21,7 +25,10 @@ img {
   margin-right: auto;
   width: 50%;
 }
-
+.navbar-nav{
+  display:flex;
+  align-items:center;
+}
 
 .spacer {
     margin-top: 40px; /* define margin as you see fit */

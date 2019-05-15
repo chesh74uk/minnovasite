@@ -21,6 +21,19 @@ img {
   margin-right: auto;
   width: 50%;
 }
+.parallax {
+  /* The image used */
+  background-image: url("https://minnovabucket.s3.eu-west-1.amazonaws.com/4wXrJYaXwqSPtxZkeHTv3hjW?response-content-disposition=inline%3B%20filename%3D%2220190403_105236.jpg%22%3B%20filename%2A%3DUTF-8%27%2720190403_105236.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJXMRGVY77XAO7SIA%2F20190515%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20190515T131933Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=82b6d67a9b16289cfe5d790689d08209e6635c4242935bda89b2d6ca816027f4");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .spacer {
     margin-top: 40px; /* define margin as you see fit */

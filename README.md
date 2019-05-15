@@ -20,3 +20,7 @@ https://github.com/comfy/comfortable-mexican-sofa
 HEROKU
 sudo snap install --classic heroku
 heroku config:set AWS_ACCESS_KEY_ID=xxx AWS_SECRET_ACCESS_KEY=yyy
+heroku login
+heroku create mwaw --region eu
+git push heroku master
+heroku run rails db:migrate

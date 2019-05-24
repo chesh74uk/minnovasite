@@ -24,3 +24,18 @@ heroku login
 heroku create mwaw --region eu
 git push heroku master
 heroku run rails db:migrate
+
+GIT
+git init
+git add * && git commit -m "msg"
+
+git push -u origin master
+
+git remote add origin URL
+git push origin master
+
+git checkout -b branchname
+git merge branchname
+git branch -d branchname
+
+git reset --hard HEAD~

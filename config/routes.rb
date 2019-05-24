@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
   comfy_route :cms_admin, path: "/admin"
   # Ensure that this route is defined last
   comfy_route :cms, path: "/"
